@@ -1,0 +1,140 @@
+{
+  "source1_entities_with_misses": 3065,
+  "missed_links": 4631,
+  "by_country": {
+    "India": 3451,
+    "US": 1180
+  },
+  "by_target_source": {
+    "S3": 2459,
+    "S2": 2172
+  },
+  "by_true_match_count": {
+    "1": 83,
+    "2": 501,
+    "3": 1002,
+    "4": 1077,
+    "5": 981,
+    "6": 613,
+    "7": 258,
+    "8": 93,
+    "9": 19,
+    "10": 4
+  },
+  "examples": [
+    {
+      "source1_entity_id": "S1-539197690",
+      "name": "Foundation Purple Logistics Limited",
+      "address": "Thameens Residence Allumoodu Jn, Neyyattinkara P O, Thiruvananthapuram, Trivandrum, Kerala",
+      "missed_target_ids": [
+        "S2-212272105",
+        "S2-443462047",
+        "S2-458208456"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-125331877",
+      "name": "New Delhi Global Corp",
+      "address": "New Delhi, Delhi, C-1/67-Old No-4B, West Delhi, Kh No-120/2 Madhu Vihar",
+      "missed_target_ids": [
+        "S3-193883951",
+        "S3-898976397"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-509723568",
+      "name": "3339 Highland Plaza Holdings",
+      "address": "Goshen, 1050 2202, AL",
+      "missed_target_ids": [
+        "S2-824343493"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-292649689",
+      "name": "Global Services Private Limited",
+      "address": "2-Floor, 2/D Panditya Road, Kolkata, Kolkata, Howrah, West Bengal",
+      "missed_target_ids": [
+        "S2-581839464",
+        "S2-603318243",
+        "S3-110738950",
+        "S3-182160243",
+        "S3-618752974"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-619314161",
+      "name": "Real Investments Private Limited",
+      "address": "8 Khasra No-914 Manas Nagar, Kanpur Road, Lucknow, Uttar Pradesh",
+      "missed_target_ids": [
+        "S2-174841294",
+        "S3-488639167",
+        "S3-60551644",
+        "S3-641468452",
+        "S3-928459352"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-60946319",
+      "name": "Montgomery Bright Ultra",
+      "address": "Pearland, 3617 Mahogany Trail, TX",
+      "missed_target_ids": [
+        "S3-52324659",
+        "S3-730500969"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-502043608",
+      "name": "IJ Constructions Limited",
+      "address": "D-37 Iind Floor, Gautam Buddha Nagar, Uttar Pradesh, Sector-63, Noida, Noida",
+      "missed_target_ids": [
+        "S2-61637150",
+        "S3-547623946"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-860641883",
+      "name": "Sun Traders Clinic",
+      "address": "S No 7-1, Konark Puram, Bldg-D-4, Pune City, Pune, Maharashtra",
+      "missed_target_ids": [
+        "S2-247002016"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-194606702",
+      "name": "Happy Auto Body",
+      "address": "8907 Cypress Street, Phoenix, AZ",
+      "missed_target_ids": [
+        "S3-546522682"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-39641619",
+      "name": "Global Global Private Limited",
+      "address": "Virar, Maharashtra, Thakur Arcade, Above Viva Super Market, Virar (West), Thane, 28-30",
+      "missed_target_ids": [
+        "S2-712311340",
+        "S3-245091850"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-979267636",
+      "name": "Lotus Bharat Food Private Limited",
+      "address": "602-603A, Shapath I, Opp Rajpath Club, Thaltej Gandhinagar Highway, Ahmedabad, Gujarat",
+      "missed_target_ids": [
+        "S2-254015676",
+        "S2-793375982",
+        "S3-354251214",
+        "S3-530654967"
+      ]
+    },
+    {
+      "source1_entity_id": "S1-876899003",
+      "name": "Hari Sky Infra LLP",
+      "address": "B-166, Gali No-2 Nehru Vihar, Karawal Nagar Road, New Delhi, East Delhi, Delhi",
+      "missed_target_ids": [
+        "S2-101728052",
+        "S2-308086958"
+      ]
+    }
+  ]
+}

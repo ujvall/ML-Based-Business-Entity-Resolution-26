@@ -1,0 +1,542 @@
+{
+  "model": "baseline_heuristic_matcher",
+  "best_threshold": 0.75,
+  "best_macro_f0.5": 0.6619365231166399,
+  "metrics": {
+    "validation_entities": 13907,
+    "macro_f0.5": 0.6619365231166399,
+    "pair_precision": 0.5747728322809179,
+    "pair_recall": 0.6194704954768031,
+    "pair_f0.5": 0.5831887862734987,
+    "singleton_accuracy": 0.6219512195121951,
+    "singleton_entities": 738,
+    "singleton_correct": 459,
+    "total_predicted_matches": 52938,
+    "true_positives": 29856,
+    "false_positives": 22088,
+    "false_negatives": 18340,
+    "false_positive_examples": [
+      {
+        "source1_id": "S1-796816825",
+        "s1_info": [
+          "Red Global Limited",
+          "West Bengal, Panchagram, Badkulla, C/O: Malay Sarkar, Hanskhali, Nadia",
+          "india"
+        ],
+        "false_positives": [
+          {
+            "id": "S3-428421545",
+            "info": [
+              "Red Global Limited",
+              "C/o Pavithra V, Sullia, Dakshina Kannada, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-451988510",
+            "info": [
+              "Red Global Pvt Ltd.",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S2-608202224",
+            "info": [
+              "Red Global Ltd",
+              "SHOP NO #6 , FLOOR GRD, 4A, SONAWALA BUILDING, PATTHE BAPURAO MARG, VASANTRAO NAIK CHOWK, GRAN, T ROAD, MUMBAI, Maharashtra",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-471862225",
+            "info": [
+              "Red Global Limited",
+              "Office No East 614, Siddhraj Z2, Gandhi Nagar, Gandhinagar, \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-484963997",
+            "info": [
+              "BLACK RED GLOBAL LIMITED",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-268620549",
+            "info": [
+              "Red Global Private Ltd",
+              "",
+              "india"
+            ]
+          }
+        ],
+        "true_positives": [
+          "S2-196975670"
+        ],
+        "gold": [
+          "S2-347326271",
+          "S3-896547694",
+          "S2-196975670"
+        ]
+      },
+      {
+        "source1_id": "S1-862024840",
+        "s1_info": [
+          "South Estate Private Limited",
+          "12, Gali No-16, Vijay Colony, Burari, New Delhi, Delhi",
+          "india"
+        ],
+        "false_positives": [
+          {
+            "id": "S3-259589229",
+            "info": [
+              "South Estate Pravt Limited",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S2-351929204",
+            "info": [
+              "Sri South  Estate-Private Limited",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-746434349",
+            "info": [
+              "South Estate Private  Ltd Enterprises",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S2-388765666",
+            "info": [
+              "South Estate Private  Limited",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-884988305",
+            "info": [
+              "South Estate Private Ltd",
+              "Block C, Ahmadabad City, Ahmedabad, GJ",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-956018634",
+            "info": [
+              "South Estate Private Limited Trading",
+              "",
+              "india"
+            ]
+          }
+        ],
+        "true_positives": [],
+        "gold": [
+          "S2-74265858",
+          "S3-187313683"
+        ]
+      },
+      {
+        "source1_id": "S1-91229135",
+        "s1_info": [
+          "Pawan Pharmaceuticals Clinic",
+          "Bangalore, Chikkatogur, Bangalore South, Karnataka, #No 9 K No 95/121",
+          "india"
+        ],
+        "false_positives": [
+          {
+            "id": "S2-185369333",
+            "info": [
+              "M/s Pawan Pharmaceuticals Clinic Pvt Ltd",
+              "#NO 9 K NO 95/125, CHIKKATOGUR, BANGALORE SOUTH, \u0c95\u0cb0\u0ccd\u0ca8\u0cbe\u0c9f\u0c95",
+              "india"
+            ]
+          }
+        ],
+        "true_positives": [
+          "S3-776763819",
+          "S3-960685971",
+          "S2-73405606"
+        ],
+        "gold": [
+          "S3-776763819",
+          "S3-960685971",
+          "S2-73405606"
+        ]
+      },
+      {
+        "source1_id": "S1-445985594",
+        "s1_info": [
+          "Affy & Partners",
+          "Iccha Devi Road, Chalisgaon, Jalgaon, Maharashtra",
+          "india"
+        ],
+        "false_positives": [
+          {
+            "id": "S2-883296027",
+            "info": [
+              "affy & partners exports #90173",
+              "NO 0032 ICCHA DEVI ROAD, CHALISGAON, Maharashtra",
+              "india"
+            ]
+          }
+        ],
+        "true_positives": [
+          "S3-836163079",
+          "S2-961077041",
+          "S3-121301441"
+        ],
+        "gold": [
+          "S3-836163079",
+          "S2-961077041",
+          "S3-121301441"
+        ]
+      },
+      {
+        "source1_id": "S1-942731197",
+        "s1_info": [
+          "Gujarat Ventures Pvt Ltd",
+          "C/O Suchita Hingar W/O Vivek Hingar Shop No 21 Badal Market Pur Road, Bhilawara, Bhilwara, Rajasthan",
+          "india"
+        ],
+        "false_positives": [
+          {
+            "id": "S3-931097932",
+            "info": [
+              "Gujarat  Ventures Pvt Ltd",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-297188427",
+            "info": [
+              "Gujarat Ventures Private Ltd",
+              "",
+              "india"
+            ]
+          },
+          {
+            "id": "S2-268229277",
+            "info": [
+              "Gujarat Ventures Pvt  Ltd",
+              "PL NO 21, KRISHNA PARK IND, SANIYA HEMAD CHORASI, SURAT, SURAT, Gujarat",
+              "india"
+            ]
+          },
+          {
+            "id": "S2-810347215",
+            "info": [
+              "Gujarat-Ventures Pvt Limited",
+              "C/O SISH RAM S/O HARI SIGH R MANDOH KALA, BHIWANI, \u0939\u0930\u093f\u092f\u093e\u0923\u093e",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-528396283",
+            "info": [
+              "GUJARAT VENTURES PVT LTD",
+              "Pl No 21, Krishna Park Ind, Saniya Hemad Chorasi, Surat, Surat, GJ",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-523555003",
+            "info": [
+              "Gujarat Private Limited Services Ventures",
+              "",
+              "india"
+            ]
+          }
+        ],
+        "true_positives": [
+          "S3-279611988"
+        ],
+        "gold": [
+          "S3-650254090",
+          "S2-302662598",
+          "S3-279611988",
+          "S2-77064245"
+        ]
+      }
+    ],
+    "false_negative_examples": [
+      {
+        "source1_id": "S1-796816825",
+        "s1_info": [
+          "Red Global Limited",
+          "West Bengal, Panchagram, Badkulla, C/O: Malay Sarkar, Hanskhali, Nadia",
+          "india"
+        ],
+        "false_negatives": [
+          {
+            "id": "S2-347326271",
+            "info": [
+              "\u09b0\u09c7\u09a1 \u0997\u09cd\u09b2\u09cb\u09ac\u09be\u09b2 \u09b2\u09bf\u09ae\u09bf\u099f\u09c7\u09a1",
+              "C/O: MALAY SARKAR, PANCHAGRAM, BADKULLA, HANSKHALI, BADKULLA, West Bengal",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-896547694",
+            "info": [
+              "\u09b0\u09c7\u09a1 \u0997\u09cd\u09b2\u09cb\u09ac\u09be\u09b2 \u09b2\u09bf\u09ae\u09bf\u099f\u09c7\u09a1",
+              "C/o: Malay Sarkar, Panchagram, Badkulla, Kolkata Region, Hanskhali, WB",
+              "india"
+            ]
+          }
+        ],
+        "predicted": [
+          "S3-428421545",
+          "S3-451988510",
+          "S3-471862225",
+          "S2-608202224",
+          "S3-484963997",
+          "S3-268620549",
+          "S2-196975670"
+        ],
+        "gold": [
+          "S2-347326271",
+          "S3-896547694",
+          "S2-196975670"
+        ]
+      },
+      {
+        "source1_id": "S1-862024840",
+        "s1_info": [
+          "South Estate Private Limited",
+          "12, Gali No-16, Vijay Colony, Burari, New Delhi, Delhi",
+          "india"
+        ],
+        "false_negatives": [
+          {
+            "id": "S2-74265858",
+            "info": [
+              "\u0938\u093e\u0909\u0925 \u090f\u0938\u094d\u091f\u0947\u091f \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+              "12, GALI NO-16, VIJAY COLONY, BURARI, NEW DELHI, Delhi",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-187313683",
+            "info": [
+              "\u0938\u093e\u0909\u0925 \u090f\u0938\u094d\u091f\u0947\u091f \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+              "12/2, Gali No-16, Vijay Colony, Burari, New Delhi, DL",
+              "india"
+            ]
+          }
+        ],
+        "predicted": [
+          "S3-259589229",
+          "S2-351929204",
+          "S3-746434349",
+          "S2-388765666",
+          "S3-884988305",
+          "S3-956018634"
+        ],
+        "gold": [
+          "S2-74265858",
+          "S3-187313683"
+        ]
+      },
+      {
+        "source1_id": "S1-107975488",
+        "s1_info": [
+          "Redox (India) Ventures Private Limited",
+          "19, Shiva Colony, Opp. Dharsen Smarak Haribahu Upashayay Nagar Extention, Push, Kar Road, Ajmer, Rajasthan",
+          "india"
+        ],
+        "false_negatives": [
+          {
+            "id": "S2-35385665",
+            "info": [
+              "Private Redox (lndia) Ventures Limited",
+              "NO G-62 19, AJMER, Rajasthan",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-976838152",
+            "info": null
+          },
+          {
+            "id": "S2-364021667",
+            "info": [
+              "REDOX (INDIA) VENTURES PRIVATE LTD",
+              "#G-62 19, SHIVA COLONY, OPP. DHARSEN SMARAK HARIBAHU UPASHAYAY NAGAR EXTENTION, PUSH, KAR ROAD, AJMER, Rajasthan",
+              "india"
+            ]
+          }
+        ],
+        "predicted": [
+          "S3-402873903"
+        ],
+        "gold": [
+          "S2-35385665",
+          "S3-402873903",
+          "S3-976838152",
+          "S2-364021667"
+        ]
+      },
+      {
+        "source1_id": "S1-769132981",
+        "s1_info": [
+          "Eyde Holmes, CPA, PC PLLC",
+          "736 River Lane, Lavon, TX",
+          "us"
+        ],
+        "false_negatives": [
+          {
+            "id": "S2-228603660",
+            "info": [
+              "@eydeholmes",
+              "TX, LAVON, 736 RIVER LANE",
+              "us"
+            ]
+          }
+        ],
+        "predicted": [
+          "S2-50503000",
+          "S2-138669293"
+        ],
+        "gold": [
+          "S2-50503000",
+          "S2-138669293",
+          "S2-228603660"
+        ]
+      },
+      {
+        "source1_id": "S1-523632949",
+        "s1_info": [
+          "Amrut Group of Companies Ltd",
+          "Madhya Pradesh, Indore, 226 - Tanki Chowk Bijalpur, Indore",
+          "india"
+        ],
+        "false_negatives": [
+          {
+            "id": "S2-658153348",
+            "info": null
+          },
+          {
+            "id": "S2-858637848",
+            "info": [
+              "Shri Amrut Group Of Companies Ltd",
+              "#22 - TANKI CLOWK BIJALPUR, INDORE, Madhya Pradesh",
+              "india"
+            ]
+          },
+          {
+            "id": "S3-465784216",
+            "info": [
+              "\u00e1mrutcompanies.com",
+              "Indore, ##226 - Tanki Chowk Bijalpur, MP",
+              "india"
+            ]
+          }
+        ],
+        "predicted": [
+          "S3-847443790",
+          "S3-847906297"
+        ],
+        "gold": [
+          "S2-658153348",
+          "S3-847443790",
+          "S3-847906297",
+          "S2-858637848",
+          "S3-465784216"
+        ]
+      }
+    ]
+  },
+  "threshold_sweep": [
+    {
+      "threshold": 0.65,
+      "macro_f0.5": 0.5938549085807792,
+      "pair_precision": 0.4408153438728834,
+      "pair_recall": 0.683832683210225,
+      "singleton_accuracy": 0.38482384823848237,
+      "predicted_matches": 76817
+    },
+    {
+      "threshold": 0.7,
+      "macro_f0.5": 0.6404222721690087,
+      "pair_precision": 0.527318386835627,
+      "pair_recall": 0.6622333803635156,
+      "singleton_accuracy": 0.491869918699187,
+      "predicted_matches": 61903
+    },
+    {
+      "threshold": 0.75,
+      "macro_f0.5": 0.6619365231166399,
+      "pair_precision": 0.5747728322809179,
+      "pair_recall": 0.6194704954768031,
+      "singleton_accuracy": 0.6219512195121951,
+      "predicted_matches": 52938
+    },
+    {
+      "threshold": 0.8,
+      "macro_f0.5": 0.6464235594554961,
+      "pair_precision": 0.6059265811587793,
+      "pair_recall": 0.5400863142169474,
+      "singleton_accuracy": 0.7168021680216802,
+      "predicted_matches": 43694
+    },
+    {
+      "threshold": 0.82,
+      "macro_f0.5": 0.6304164035521083,
+      "pair_precision": 0.6132457413490184,
+      "pair_recall": 0.49970951946219605,
+      "singleton_accuracy": 0.7588075880758808,
+      "predicted_matches": 39919
+    },
+    {
+      "threshold": 0.85,
+      "macro_f0.5": 0.5840474321209546,
+      "pair_precision": 0.5847583747507933,
+      "pair_recall": 0.43208979998340113,
+      "singleton_accuracy": 0.7750677506775068,
+      "predicted_matches": 36236
+    },
+    {
+      "threshold": 0.88,
+      "macro_f0.5": 0.5294027970969893,
+      "pair_precision": 0.5494100991033506,
+      "pair_recall": 0.3623329736907627,
+      "singleton_accuracy": 0.7981029810298103,
+      "predicted_matches": 32370
+    },
+    {
+      "threshold": 0.9,
+      "macro_f0.5": 0.491914351668301,
+      "pair_precision": 0.5206608789285955,
+      "pair_recall": 0.32104324010291313,
+      "singleton_accuracy": 0.8021680216802168,
+      "predicted_matches": 30300
+    },
+    {
+      "threshold": 0.92,
+      "macro_f0.5": 0.3709269639126546,
+      "pair_precision": 0.9993246285457001,
+      "pair_recall": 0.18420615818740144,
+      "singleton_accuracy": 0.9986449864498645,
+      "predicted_matches": 8885
+    },
+    {
+      "threshold": 0.95,
+      "macro_f0.5": 0.22910458286727986,
+      "pair_precision": 0.999777084262149,
+      "pair_recall": 0.09305751514648519,
+      "singleton_accuracy": 1.0,
+      "predicted_matches": 4486
+    }
+  ]
+}

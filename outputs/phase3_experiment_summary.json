@@ -1,0 +1,206 @@
+{
+  "best_model_name": "LogisticRegression",
+  "best_threshold": 0.5,
+  "best_macro_f0.5": 0.7791020127255042,
+  "validation_entities": 13907,
+  "pair_precision": 0.9111883602926747,
+  "pair_recall": 0.6743920657315959,
+  "singleton_accuracy": 0.7940379403794038,
+  "total_predicted_matches": 35906,
+  "false_positive_examples": [
+    {
+      "source1_id": "S1-539197690",
+      "s1_info": null,
+      "false_positives": [
+        {
+          "id": "S2-25114119",
+          "info": null
+        }
+      ],
+      "true_positives": [
+        "S2-871400892",
+        "S3-36991592",
+        "S2-184526378"
+      ],
+      "gold": [
+        "S3-36991592",
+        "S2-443462047",
+        "S2-458208456",
+        "S2-871400892",
+        "S2-212272105",
+        "S2-184526378",
+        "S3-506112215"
+      ]
+    },
+    {
+      "source1_id": "S1-125331877",
+      "s1_info": null,
+      "false_positives": [
+        {
+          "id": "S2-871364926",
+          "info": null
+        }
+      ],
+      "true_positives": [
+        "S2-309315351",
+        "S2-357054405",
+        "S2-20329354"
+      ],
+      "gold": [
+        "S3-193883951",
+        "S2-357054405",
+        "S2-20329354",
+        "S3-898976397",
+        "S2-309315351"
+      ]
+    },
+    {
+      "source1_id": "S1-731917928",
+      "s1_info": null,
+      "false_positives": [
+        {
+          "id": "S2-954513568",
+          "info": null
+        },
+        {
+          "id": "S2-378264853",
+          "info": null
+        },
+        {
+          "id": "S2-803406757",
+          "info": null
+        },
+        {
+          "id": "S2-523138333",
+          "info": null
+        },
+        {
+          "id": "S2-270677334",
+          "info": null
+        }
+      ],
+      "true_positives": [
+        "S3-43143740"
+      ],
+      "gold": [
+        "S3-43143740"
+      ]
+    }
+  ],
+  "false_negative_examples": [
+    {
+      "source1_id": "S1-539197690",
+      "s1_info": null,
+      "false_negatives": [
+        {
+          "id": "S2-443462047",
+          "info": null
+        },
+        {
+          "id": "S2-212272105",
+          "info": null
+        },
+        {
+          "id": "S3-506112215",
+          "info": null
+        },
+        {
+          "id": "S2-458208456",
+          "info": null
+        }
+      ],
+      "predicted": [
+        "S2-871400892",
+        "S3-36991592",
+        "S2-25114119",
+        "S2-184526378"
+      ],
+      "gold": [
+        "S3-36991592",
+        "S2-443462047",
+        "S2-458208456",
+        "S2-871400892",
+        "S2-212272105",
+        "S2-184526378",
+        "S3-506112215"
+      ]
+    },
+    {
+      "source1_id": "S1-125331877",
+      "s1_info": null,
+      "false_negatives": [
+        {
+          "id": "S3-193883951",
+          "info": null
+        },
+        {
+          "id": "S3-898976397",
+          "info": null
+        }
+      ],
+      "predicted": [
+        "S2-871364926",
+        "S2-309315351",
+        "S2-357054405",
+        "S2-20329354"
+      ],
+      "gold": [
+        "S3-193883951",
+        "S2-357054405",
+        "S2-20329354",
+        "S3-898976397",
+        "S2-309315351"
+      ]
+    },
+    {
+      "source1_id": "S1-533701421",
+      "s1_info": null,
+      "false_negatives": [
+        {
+          "id": "S3-521363983",
+          "info": null
+        },
+        {
+          "id": "S2-434618903",
+          "info": null
+        },
+        {
+          "id": "S2-839964869",
+          "info": null
+        }
+      ],
+      "predicted": [],
+      "gold": [
+        "S3-521363983",
+        "S2-434618903",
+        "S2-839964869"
+      ]
+    }
+  ],
+  "models_evaluated": {
+    "LogisticRegression": {
+      "best_threshold": 0.5,
+      "best_macro_f0.5": 0.7791020127255042,
+      "pair_precision": 0.9111883602926747,
+      "pair_recall": 0.6743920657315959,
+      "singleton_accuracy": 0.7940379403794038,
+      "matches": 35906
+    },
+    "HistGradientBoosting": {
+      "best_threshold": 0.9,
+      "best_macro_f0.5": 0.5292801517337767,
+      "pair_precision": 0.2805592096778354,
+      "pair_recall": 0.6770478877915179,
+      "singleton_accuracy": 0.4241192411924119,
+      "matches": 120552
+    },
+    "HistGradientBoosting_Deep": {
+      "best_threshold": 0.9,
+      "best_macro_f0.5": 0.46363598420928637,
+      "pair_precision": 0.17406952618876234,
+      "pair_recall": 0.682380280521205,
+      "singleton_accuracy": 0.36449864498644985,
+      "matches": 196869
+    }
+  }
+}

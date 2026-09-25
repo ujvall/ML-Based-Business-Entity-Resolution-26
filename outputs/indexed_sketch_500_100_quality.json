@@ -1,0 +1,13 @@
+{
+  "source1_entities": 13907,
+  "target_entities": 10320219,
+  "candidate_pairs": 1237841,
+  "candidates_per_source1": 89.00848493564392,
+  "reduction_ratio": 0.9999913753298321,
+  "true_links": 48196,
+  "true_links_retrieved": 43301,
+  "pair_recall": 0.8984355548178272,
+  "oracle_macro_f0.5_ceiling": 0.9559882183278163,
+  "singleton_entities": 738,
+  "singletons_with_no_candidates": 0
+}

@@ -1,0 +1,14 @@
+{
+  "partition": "train",
+  "source1_entities": 441021,
+  "candidate_pairs": 50284307,
+  "candidates_per_source1": 114.01794245625491,
+  "reduction_ratio": 0.9999889519842111,
+  "used_blocks": 4378667,
+  "skipped_broad_blocks": 1689015,
+  "retrieve_seconds": 1614.56,
+  "top_k": 150,
+  "max_postings": 200,
+  "sample_modulus": 1,
+  "ranking": "name_address_sketch"
+}

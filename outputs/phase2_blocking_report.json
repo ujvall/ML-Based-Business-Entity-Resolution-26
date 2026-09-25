@@ -1,0 +1,35 @@
+{
+  "partition": "train",
+  "sample_modulus": 32,
+  "batch_size": 20000,
+  "max_postings": 200,
+  "top_k": 100,
+  "method": "multi-view token and numeric blocks, bounded by posting frequency and top-k",
+  "totals": {
+    "source1_entities": 13907,
+    "raw_candidate_pairs": 2695636,
+    "retained_candidate_pairs": 1159767,
+    "true_links": 48196,
+    "true_links_retrieved": 43565,
+    "nonempty_truth_entities": 13169,
+    "nonempty_truth_entities_with_candidate": 12935,
+    "seconds": 1077.09,
+    "pair_recall": 0.9039131878164163,
+    "entity_hit_rate": 0.9822309970384995,
+    "candidates_per_source1": 83.39447760120802
+  },
+  "batches": [
+    {
+      "source1_entities": 13907,
+      "query_keys": 157748,
+      "active_keys": 134736,
+      "raw_candidate_pairs": 2695636,
+      "retained_candidate_pairs": 1159767,
+      "true_links": 48196,
+      "true_links_retrieved": 43565,
+      "nonempty_truth_entities": 13169,
+      "nonempty_truth_entities_with_candidate": 12935,
+      "seconds": 1077.09
+    }
+  ]
+}

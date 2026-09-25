@@ -1,0 +1,199 @@
+{
+  "tables": [
+    {
+      "file": "student_resource\\dataset\\test\\test_source1.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 0.0,
+        "business_address": 0.0,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.861775,
+        "business_address": 0.99379,
+        "country": 1.5e-05
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\test\\test_source2.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 1e-05,
+        "business_address": 0.026685,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.979725,
+        "business_address": 0.967715,
+        "country": 1.5e-05
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\test\\test_source3.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 1.5e-05,
+        "business_address": 0.02688,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.98184,
+        "business_address": 0.968305,
+        "country": 1.5e-05
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\train\\train_ground_truth.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "source1_entity_id",
+        "matched_entity_ids"
+      ],
+      "dtypes": {
+        "source1_entity_id": "str",
+        "matched_entity_ids": "str"
+      },
+      "missing_fraction": {
+        "source1_entity_id": 0.0,
+        "matched_entity_ids": 0.05597
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "source1_entity_id": 1.0,
+        "matched_entity_ids": 0.944035
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\train\\train_source1.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 0.0,
+        "business_address": 0.0,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.86387,
+        "business_address": 0.99431,
+        "country": 1e-05
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\train\\train_source2.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 0.0,
+        "business_address": 0.033205,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.97828,
+        "business_address": 0.961535,
+        "country": 1e-05
+      }
+    },
+    {
+      "file": "student_resource\\dataset\\train\\train_source3.tsv",
+      "sampled_rows": 200000,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "dtypes": {
+        "entity_id": "str",
+        "business_name": "str",
+        "business_address": "str",
+        "country": "str"
+      },
+      "missing_fraction": {
+        "entity_id": 0.0,
+        "business_name": 5e-06,
+        "business_address": 0.033155,
+        "country": 0.0
+      },
+      "duplicate_rows": 0,
+      "unique_fraction": {
+        "entity_id": 1.0,
+        "business_name": 0.98016,
+        "business_address": 0.962485,
+        "country": 1e-05
+      }
+    }
+  ]
+}

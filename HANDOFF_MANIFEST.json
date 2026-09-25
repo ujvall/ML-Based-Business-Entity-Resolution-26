@@ -1,0 +1,8 @@
+{
+  "scope": "Amazon ML Challenge 2026 Phase 0-2 handoff",
+  "status": "no trained matcher or submission yet",
+  "excluded_regenerable_directories": [
+    "work/block_index/",
+    "work/python_packages/"
+  ]
+}

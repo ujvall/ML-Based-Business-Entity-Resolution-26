@@ -1,0 +1,103 @@
+{
+  "split": {
+    "method": "blake2b_hash_source1_id",
+    "seed": 2026,
+    "validation_fraction": 0.2,
+    "validation_entities": 441021,
+    "development_entities": 1765800
+  },
+  "files": {
+    "train_source1.tsv": {
+      "rows": 2206821,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "missing_counts": {}
+    },
+    "train_source2.tsv": {
+      "rows": 5034616,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "India": 2017799,
+        "US": 3016817
+      },
+      "missing_counts": {
+        "business_address": 168967
+      }
+    },
+    "train_source3.tsv": {
+      "rows": 5285603,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "missing_counts": {
+        "business_address": 175916
+      }
+    },
+    "test_source1.tsv": {
+      "rows": 1732544,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "US": 663106,
+        "France": 259452,
+        "India": 809986
+      },
+      "missing_counts": {}
+    },
+    "test_source2.tsv": {
+      "rows": 4887273,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "India": 2312565,
+        "France": 703378,
+        "US": 1871330
+      },
+      "missing_counts": {
+        "business_address": 129408
+      }
+    },
+    "test_source3.tsv": {
+      "rows": 5082316,
+      "duplicate_entity_ids": 0,
+      "country_counts": {
+        "India": 2405000,
+        "France": 731615,
+        "US": 1945701
+      },
+      "missing_counts": {
+        "business_address": 136098
+      }
+    }
+  },
+  "ground_truth": {
+    "rows": 2206821,
+    "duplicate_source1_rows": 0,
+    "singletons": 123247,
+    "singleton_fraction": 0.05584820880352326,
+    "match_count_distribution": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "validation_rows": 441021
+  },
+  "metric_self_test": {
+    "correct_singleton": 1.0,
+    "false_singleton_merge": 0.0,
+    "perfect_pair": 1.0,
+    "one_extra_pair": 0.5555555555555556
+  }
+}

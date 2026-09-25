@@ -1,0 +1,16 @@
+{
+  "status": "phases_0_1_2_complete_ready_for_matching_model",
+  "task": "business_entity_resolution",
+  "reference_source": "source1",
+  "match_sources": ["source2", "source3"],
+  "metric": "macro_f0.5_per_source1_entity",
+  "validation_strategy": "deterministic 20 percent Source 1 ID hash holdout with seed 2026; train on development labels and use held-out labels only for evaluation and threshold selection",
+  "external_data_allowed": false,
+  "model_license": "MIT or Apache-2.0",
+  "model_parameter_limit": 8000000000,
+  "submission_files": ["output/matching_results.tsv", "output/candidate_pairs.tsv"],
+  "max_submissions_per_day": 5,
+  "challenge_window_ist": "2026-09-25 00:00 through 2026-09-27 23:59",
+  "required_artifacts": ["approach document", "commented source code", "submission version history"],
+  "notes": "Read every input and output TSV with sep=\\t. Test may include countries absent from training."
+}
